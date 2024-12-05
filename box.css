@@ -1,0 +1,118 @@
+div > div {
+  height: 25vh;
+  width: 15vw;
+  position: relative;
+  display: inline-block;
+  margin-left: 70px;
+  margin-top: 35px;
+}
+div > div > div:nth-child(1) {
+  background-color: rgb(36, 204, 36);
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+div > div > div:nth-child(2) {
+  background-color: rgb(224, 79, 79);
+  height: 25vh;
+  width: 15vw;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 2;
+}
+div > div > div:nth-child(2) > button {
+  height: 5vh;
+  width: 7vw;
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  background-color: red;
+}
+div:nth-child(1) > :nth-child(2) > button {
+  background-color: darkcyan;
+}
+div:nth-child(1) > :nth-child(2) button:hover {
+  background-color: crimson;
+}
+div:nth-child(2) > :nth-child(1) {
+  background-color: chartreuse;
+  position: absolute;
+}
+div:nth-child(2) > div:nth-child(2) {
+  background-color: darkgreen;
+  bottom: 85px;
+  right: 45px;
+  top: -35px;
+}
+div:nth-child(2) > div:nth-child(2) button {
+  background-color: aquamarine;
+  border-style: solid;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+div:nth-child(2) > div:nth-child(2) button:hover {
+  background-color: rgb(45, 53, 173);
+}
+div:nth-child(3) > :nth-child(1) {
+  background-color: peru;
+}
+div:nth-child(3) > :nth-child(2) {
+  background-color: rgb(114, 114, 212);
+  bottom: 220px;
+  right: 100px;
+  height: 20vh;
+  width: 10vw;
+}
+div:nth-child(3) > :nth-child(2) button {
+  background-color: peachpuff;
+  border-style: dotted;
+  top: 45px;
+  left: 15px;
+  bottom: 5px;
+  right: 5px;
+}
+div:nth-child(3) > :nth-child(2) button:hover {
+  background-color: palegreen;
+}
+div:nth-child(4) > :nth-child(1) {
+  background-color: rgb(156, 42, 118);
+}
+div:nth-child(4) > :nth-child(2) {
+  background-color: rgb(69, 149, 160);
+  bottom: 200px;
+  right: 100px;
+}
+div:nth-child(4) > :nth-child(2) button {
+  background-color: palevioletred;
+  border-style: dashed;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+div:nth-child(4) > :nth-child(2) button:hover {
+  background-color: aqua;
+}
+
+/*>div{
+        height: 25vh;
+        width:15vw;
+        position: relative;
+    >div:nth-child(3){
+        background-color:rgb(28, 28, 216);
+        height:100%;
+        width:100%;
+        z-index:1;
+
+    }
+    >div:nth-child(2){
+        background-color: rgb(161, 22, 22);
+        height:25vh;
+        width:15vw;
+        position: absolute;
+        bottom:50px;
+        left:50px;
+        z-index:2;
+    }
+}}*//*# sourceMappingURL=box.css.map */
