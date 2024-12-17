@@ -1,0 +1,114 @@
+// h{
+//     text-align:center;
+//     color:blue;
+// }
+body{
+    margin:35px;
+    
+    padding:25px;
+
+}
+h2{
+    width:80%;
+    height:8vh;
+    margin-left:30px;
+    background: linear-gradient(to right, rgb(134, 12, 145), rgb(70, 47, 201));
+}
+img{
+    height: 8vh;
+    width:7vw;
+    padding-left:30px;
+}
+h1{
+    text-align:center;
+}
+div {
+    >div {
+    height:30vh;
+    width:12vw;
+    position: relative;
+    display: inline-block;
+    margin-left:70px;
+    margin-top:20px;
+
+    >div:nth-child(1){
+        background-color:rgb(59, 134, 219);
+        height:100%;
+        width:100%;
+        z-index:1;
+        
+    
+    }
+    >div:nth-child(2){
+        background-color: rgb(235, 217, 217);
+        height:23vh;
+        width:13vw;
+        position: absolute;
+        // margin-right:25px;
+        top:70px;
+        right:-5px;
+        z-index:2;
+        text-align:center;
+        padding-top:75px;
+        
+
+        // button{
+        //     border-style: dotted;
+        //     position: absolute;
+        //     right:65px;
+        // }
+    
+    
+    }
+    }
+
+    &:nth-child(3)>div:nth-child(1){
+        background-color: rgb(231, 79, 79);
+        position: absolute;
+        right:-15px;
+    
+
+
+    }
+    &:nth-child(3)>div:nth-child(2){
+        background-color:rgb(235, 217, 217);
+        top:85px;
+        left:-5px;
+        bottom:-35px;
+        
+        
+        
+    }
+    &:nth-child(4)>div:nth-child(1){
+        background-color: rgb(83, 163, 83);
+    }
+    &:nth-child(4)>div:nth-child(2){
+        background-color:rgb(235, 217, 217);
+        
+        right:-25px;
+    // &:nth-of-type(3) {
+    //     div:nth-child(1) {
+    //         background-color: rgb(39, 179, 39);
+    //     }
+
+    //     div:nth-child(2) {
+    //         background-color: rgb(114, 114, 212);
+    //         right: -25px;
+    //     }
+    // }
+
+        
+    }
+    &:nth-child(5)>div:nth-child(1){
+        bottom:60px;
+        right:35px;
+        background-color: rgb(240, 136, 95);
+    }
+    &:nth-child(5)>div:nth-child(2){
+        background-color:rgb(235, 217, 217);
+        top:45px;
+        left:15px;
+        
+    }
+    
+}

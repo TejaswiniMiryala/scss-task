@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(211, 193, 193);
+    padding:2px;
+
+    .buttons-container{
+        margin-left:15px;
+
+        button{
+            height:5vh;
+            width:23.9vw;
+            background-color: white;
+            border-style:none;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+    }
+    .img-container{
+        img{
+            height:70vh;
+            width:77vw;
+            margin-left:14px;
+            position: relative;
+            z-index:1;
+            padding-top:1%;
+        }
+    
+        .img-heading{
+            font-size:15px;
+            color:white;
+            position: absolute;
+            bottom:40%;
+            z-index:2;
+            left:5%;
+
+            button{
+                background-color: black;
+                color:white;
+                height:6vh;
+                width:15vw;
+            }
+        }
+        .side-bar{
+            height:70vh;
+            // width:20.2vw;
+            float:right;
+            margin-right:10px;
+            // margin-left:10px;
+            
+            .plan{
+                height:32.5vh;
+                width:19vw;
+                background-color: white;
+                margin-top:16px;
+                text-align: center;
+                padding:4%;
+                h3{
+                    font-size:15px;
+
+                }
+                button {
+                    background-color: black;
+                    color:white;
+                    height:5vh;
+                    width:8vw;
+                }
+
+            }
+        }
+    }
+
+    .bottom-container{
+        max-height:40vh;
+        width:98vw;
+        margin-left:4px;
+        
+        
+    }
+    .box-1{
+        height:25vh;
+        width:23.5vw;
+        margin-left:9px;
+        margin-top:8px;
+        background-color:white;
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+        img{
+            height:10vh;
+            width:5vw;
+        }
+        h1{
+            font-size:20px;
+            text-align: center;
+            font-weight: 500;
+        }
+    }
+    
+}
+
+
+@media (max-width: 768px) { 
+    body{
+        height:cover;
+        width:100%;
+    }
+    div{
+        button{
+            width:40vw;
+            height:5vh;
+            border-style:none;
+            display:block;
+            text-align: center;
+            margin-top:15px;
+        
+        }
+    }
+    img {
+        height: 50vh;
+        width: 74vw;
+        margin-left: 50%;
+        position:relative;
+        z-index:1;
+    }
+
+    .side-bar {
+        width: 100vw;
+        margin-right:0;
+        display: inline-block;
+        height:30vh;
+    }
+
+    .plan {
+        width: 90vw;
+        margin: 10px auto;
+    }
+
+    // .box-1 {
+    //     width: 90vw;
+    //     margin-left: auto;
+    //     margin-right: auto;
+    // }
+
+    .img-heading {
+        font-size: 12px;
+        left: 10%;
+    }
+}
+
+@media (max-width: 480px) { /* Mobile View */
+    button{
+        width:25vw;
+    }
+    div {
+        img {
+            height: 40vh;
+            width: 95vw;
+            margin-left: 2.5%;
+            // .img-heading button {
+            //     // width: 30vw;
+            // }
+        }
+
+
+        .side-bar {
+            min-width: 100vw;
+            height: auto;
+            .plan {
+                height: auto;
+                width: 95vw;
+                margin: 10px auto;
+                .plan button {
+                    width: 40vw;
+                }
+            }
+        
+        }
+
+    // .plan {
+    //     height: auto;
+    //     width: 95vw;
+    //     margin: 10px auto;
+    // }
+
+    // .box-1 {
+    //     width: 95vw;
+    //     margin-left: auto;
+    //     margin-right: auto;
+    // }
+
+    // .img-heading {
+    //     font-size: 10px;
+    //     left: 5%;
+    // }
+
+    // .img-heading button {
+    //     width: 30vw;
+    // }
+
+    // .plan button {
+    //     width: 40vw;
+    // }
+}
+
+}
